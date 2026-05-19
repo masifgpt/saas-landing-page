@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aura - Next-generation AI-powered automation and web solutions for modern digital scale.">
+    <title>Aura // Intelligent Automation & Design SaaS</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Background Decorative Gradients -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i data-lucide="layers" class="logo-icon"></i>
+                <span>AURA</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary nav-cta">Get Started</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section text-reveal-parent">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge"><span>New</span> AI Automation Workflows V2.0</div>
+                    <h1 class="hero-title">Automate Your Digital Product ecosystem</h1>
+                    <p class="hero-desc">Deploy intelligent agents, scale responsive interfaces, and optimize performance instantly with Aura’s premium engineering suite.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+                        <a href="#services" class="btn btn-secondary">Explore Solutions</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-glass-card">
+                        <div class="card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="code-line"><span class="keyword">const</span> aura = <span class="string">'intelligent-ai'</span>;</div>
+                            <div class="code-line"><span class="keyword">await</span> aura.deployWorkflow({ optimize: <span class="boolean">true</span> });</div>
+                            <div class="code-line comment">// System status: 99.9% optimized</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Trusted Brands -->
+            <div class="trusted-brands">
+                <p class="brands-title">Trusted by engineering teams worldwide</p>
+                <div class="brands-slider">
+                    <div class="brand"><i data-lucide="framer"></i> Framer</div>
+                    <div class="brand"><i data-lucide="figma"></i> Figma</div>
+                    <div class="brand"><i data-lucide="slack"></i> Slack</div>
+                    <div class="brand"><i data-lucide="github"></i> GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section scroll-animate">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Engineered For High-Performance Teams</h2>
+                    <p class="section-subtitle">Everything you need to ship products with unparalleled quality and beautiful interactive layouts.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card feature-card">
+                        <div class="feature-icon-wrapper"><i data-lucide="zap"></i></div>
+                        <h3>Lightning Fast</h3>
+                        <p>Optimized bundle sizes and static generation guarantees sub-second rendering across mobile and desktop platforms.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="feature-icon-wrapper"><i data-lucide="shield"></i></div>
+                        <h3>Bank-Grade Security</h3>
+                        <p>Enterprise encryption protocols natively baked into your workflows ensuring maximum protection of user records.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="feature-icon-wrapper"><i data-lucide="cpu"></i></div>
+                        <h3>Agentic AI Inside</h3>
+                        <p>Incorporate intelligent LLM actions into standard application routines via clean and intuitive JS structures.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Stats Section -->
+        <section id="about" class="section scroll-animate alt-bg">
+            <div class="container grid grid-2 alignment-center">
+                <div class="about-text">
+                    <h2 class="section-title">We build modern workflows that capture value</h2>
+                    <p class="section-subtitle">Aura bridges the gap between sophisticated engineering solutions and beautiful glassmorphic visual aesthetics.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="99">0%</h4>
+                            <p class="stat-label">Uptime SLA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-target="150">0+</h4>
+                            <p class="stat-label">Projects Deployed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Team collaborating on UI Design" class="about-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services/Solutions Section -->
+        <section id="services" class="section scroll-animate">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">End-to-End Solutions</h2>
+                    <p class="section-subtitle">Tailored architectural strategies for products requiring high UI fidelity and extreme reliability.</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="card service-card">
+                        <i data-lucide="code-2" class="service-icon"></i>
+                        <h3>Premium Web Development</h3>
+                        <p>Next-gen frameworks matched with absolute fluid responsive styling logic for premium web experiences.</p>
+                    </div>
+                    <div class="card service-card">
+                        <i data-lucide="palette" class="service-icon"></i>
+                        <h3>Advanced UI/UX Systems</h3>
+                        <p>Dark mode, elegant glass panels, custom variables, and clean component systems crafted carefully by hand.</p>
+                    </div>
+                    <div class="card service-card">
+                        <i data-lucide="gauge" class="service-icon"></i>
+                        <h3>Core-Vitals Optimization</h3>
+                        <p>Accelerating critical interaction points, removing bloated scripts, and enhancing layout stability scoreboards.</p>
+                    </div>
+                    <div class="card service-card">
+                        <i data-lucide="smartphone" class="service-icon"></i>
+                        <h3>Mobile-First Layouts</h3>
+                        <p>Fluid designs adjusting seamlessly from compact mobile viewports to expansive ultra-wide monitors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section scroll-animate alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What Our Partners Say</h2>
+                    <p class="section-subtitle">Real experiences shared by engineering managers and modern product founders.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card testimonial-card">
+                        <div class="rating"><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i></div>
+                        <p class="testimonial-text">"Aura completely redesigned our app infrastructure. The glassmorphic interface and micro-interactions feel like a true premium upgrade."</p>
+                        <div class="user-meta">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Sarah Jenkins" class="avatar">
+                            <div>
+                                <h4>Sarah Jenkins</h4>
+                                <p>VP of Product, Apex</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card testimonial-card">
+                        <div class="rating"><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i></div>
+                        <p class="testimonial-text">"The AI automation features saved our support and dispatch loops over 40 hours weekly. The implementation process was frictionless."</p>
+                        <div class="user-meta">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Marcus Chen" class="avatar">
+                            <div>
+                                <h4>Marcus Chen</h4>
+                                <p>CTO, Horizon Dev</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card testimonial-card">
+                        <div class="rating"><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i><i data-lucide="star" class="star-filled"></i></div>
+                        <p class="testimonial-text">"The absolute attention to Core Vitals and asset responsiveness transformed our retention numbers within 30 days."</p>
+                        <div class="user-meta">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Elena Rostova" class="avatar">
+                            <div>
+                                <h4>Elena Rostova</h4>
+                                <p>Creative Director, Vibe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section scroll-animate">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Predictable Pricing Structure</h2>
+                    <p class="section-subtitle">Pick a package configured exactly to match your project delivery lifecycle requirements.</p>
+                </div>
+                <div class="grid grid-3 alignment-center">
+                    <!-- Card 1 -->
+                    <div class="card pricing-card">
+                        <div class="plan-name">Basic</div>
+                        <div class="price">$100 <span>/ project start</span></div>
+                        <p class="plan-desc">Perfect setup for foundational portfolios or individual landing strategies.</p>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check" class="check-icon"></i> 3 Standard Pages</li>
+                            <li><i data-lucide="check" class="check-icon"></i> Fully Responsive CSS</li>
+                            <li><i data-lucide="check" class="check-icon"></i> Contact Form Architecture</li>
+                            <li class="disabled"><i data-lucide="x" class="x-icon"></i> Custom n8n AI Automations</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary btn-full">Choose Basic</a>
+                    </div>
+                    <!-- Card 2 (Recommended) -->
+                    <div class="card pricing-card recommended">
+                        <div class="recommend-badge">Most Popular</div>
+                        <div class="plan-name">Growth / Pro</div>
+                        <div class="price">$299 <span>/ solution</span></div>
+                        <p class="plan-desc">Engineered for expanding workflows needing complex custom script hooks.</p>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check" class="check-icon"></i> Complete Custom Multi-page</li>
+                            <li><i data-lucide="check" class="check-icon"></i> Premium Glass Theme Styling</li>
+                            <li><i data-lucide="check" class="check-icon"></i> Advanced Form Validations</li>
+                            <li><i data-lucide="check" class="check-icon"></i> 1 Dedicated AI Worker Rule</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Choose Growth</a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card pricing-card">
+                        <div class="plan-name">Scale / Premium</div>
+                        <div class="price">$599 <span>/ bundle</span></div>
+                        <p class="plan-desc">Full custom systems designed around advanced external APIs and integrations.</p>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check" class="check-icon"></i> Everything in Growth plan</li>
+                            <li><i data-lucide="check" class="check-icon"></i> Complex n8n / Agentic AI Hubs</li>
+                            <li><i data-lucide="check" class="check-icon"></i> WhatsApp Cloud API setups</li>
+                            <li><i data-lucide="check" class="check-icon"></i> Priority SLA Code support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary btn-full">Go Corporate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section scroll-animate alt-bg">
+            <div class="container matches-small-width">
+                <div class="section-header">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Clear answers on how the layout architecture and delivery patterns execute.</p>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Are any external libraries like Tailwind or React required?</span>
+                            <i data-lucide="chevron-down" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>No. This entire software landing system is deployed using entirely clean semantic HTML5, pure optimized native vanilla JavaScript, and modern modular CSS logic.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>How do your automation configurations execute workflows?</span>
+                            <i data-lucide="chevron-down" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>We leverage robust event-driven systems like n8n or serverless JavaScript runtime listeners to catch webhooks, validate request tokens, and instantly fire notifications across services like WhatsApp, LinkedIn or standard client emails.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Is the interface fully compatible with responsive frameworks?</span>
+                            <i data-lucide="chevron-down" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-content">
+                            <p>Yes. The template implements strict mobile-first design methodologies using unified flexible CSS flex/grids variables that render perfectly from ultra-compact smartphones to large developer monitors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section scroll-animate">
+            <div class="container matches-small-width">
+                <div class="card contact-card">
+                    <h2 class="section-title">Initiate Your Pipeline</h2>
+                    <p class="section-subtitle">Drop details below. Our technical interface team responds within 12 standard business hours.</p>
+                    
+                    <form id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            <span class="error-msg">Name field cannot be left completely blank.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Work Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                            <span class="error-msg">Please input a completely valid email string address.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Parameters / Details</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Describe the system or portfolio design goals..." required></textarea>
+                            <span class="error-msg">Please write a brief context description rule.</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Transmit Parameters</span>
+                            <i data-lucide="send" class="btn-send-icon"></i>
+                        </button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand-side">
+                <a href="#" class="nav-logo">
+                    <i data-lucide="layers" class="logo-icon"></i>
+                    <span>AURA</span>
+                </a>
+                <p class="footer-tagline">Building modern high fidelity design tokens and web automation layers for scaling engineering portfolios globally.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-column">
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="#services">Web Architecture</a></li>
+                    <li><a href="#services">Glassmorphic UI Systems</a></li>
+                    <li><a href="#features">AI Deployments</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#about">About Core Labs</a></li>
+                    <li><a href="#pricing">Price Tables</a></li>
+                    <li><a href="#faq">FAQ Docs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AURA Labs Inc. All engineering rights reserved. Deployed with precision layout architectures.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
